@@ -1,0 +1,24 @@
+.terms-and-conditions {
+    text-align: right;
+    margin: 0 20%;
+}
+
+.effective-date{
+    font-style: italic;
+}
+
+ul {
+    direction: rtl;
+    font-size: 18px;
+}
+
+ul li a {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+@media(max-width: 970px) {
+    .terms-and-conditions {
+        margin: 0 10%;
+    }
+}
